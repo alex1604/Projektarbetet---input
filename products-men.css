@@ -1,14 +1,53 @@
+@media (min-width: 575px){
+
 .container {
+    text-align: center;
+    margin-top: 15%;
+    width: 90%;
+    margin-left: 8%;
+}
+
+.row {
     display: flex;
-    margin-top: 10%;
 }
 
-.row{
+.product {
+    margin: 15px;
+    flex: 1 1 auto;
+    border-bottom: 1px solid grey
 }
 
-img {
+.product > img {
+    width: 100%;
+    transition: all 1s;
 }
 
-div {
-    border: 1px solid black;
+.product:hover > img{
+    transform: scale(1.1);
+    transition: 1s;
+}
+}
+
+@media (max-width: 574px){
+    
+.container {
+    text-align: center;
+    margin-top: 15%;
+    width: 84%;
+    margin-left: 8%;
+}
+
+
+.product {
+    display: block;
+    margin: 15px;
+    flex: 1 1 auto;
+    border-bottom: 1px solid grey
+}
+
+.product > img {
+    width: 100%;
+    transition: all 1s;
+}
+    
 }
