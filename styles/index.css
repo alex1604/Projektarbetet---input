@@ -1,0 +1,32 @@
+body{
+  padding:0 !important;
+}
+.container{
+  padding:0;
+  width:100%;
+  height:50em;
+}
+.jumbotron{
+  width:100%;
+  height:45em;
+  background-color:gray !important;
+}
+.carousel-inner{
+  height:35em;
+  margin:none;
+}
+img{
+  width:100%;
+  opacity:0.9;
+}
+.carousel-indicators{
+  position:relative;
+  top:38em;
+}
+.carousel-indicators li {
+  background-color: white !important;
+  border: 1px solid black !important;
+}
+li .active{
+  background-color:black !important;
+}
