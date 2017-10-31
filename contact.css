@@ -53,3 +53,11 @@ textarea {
 iframe {
   width: 60%;
 }
+
+@media (max-width:575px) {
+  
+  iframe {
+    width: 100%;
+  }
+  
+}
