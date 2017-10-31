@@ -9,10 +9,16 @@ body{
     background-color: beige;
 }
 
-img{
+.logo{
     width: 90px;
     height: 75px;
     padding: 20px;
+}
+
+.hamburger{
+    width: 0;
+    height: 0;
+    padding: 0;
 }
 
 .container{
@@ -24,25 +30,25 @@ img{
 .navbar{
     position: relative;
     display: flex;
-    list-style: none;
     font-size: 2em;
     color: white;
     align-items: center;
     text-align: center;
 }
 
-.navbar > li{
-    flex: 1 1 auto;
-}
-
 .option{
-    position: relative;
-    height: 100%;
+    display: flex;
+    width: 100%;
+    list-style: none;
 }
 
-.option:hover{
+.option > li{
+    flex: 1 1 auto;
+    flex-direction: row;
+}
+
+.option > li:hover{
     color: grey;
-    opacity: .8;
 }
 
 .content{
@@ -50,4 +56,58 @@ img{
     background-color: red;
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 600px){
+    
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90px;
+        height: 75px;
+        padding: 20px;
+    }
+    
+    .container{
+        position: relative;
+        height: 115px;
+    }
+    
+    .hamburger{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    
+    .option{
+        position: absolute;
+        top: 0px;
+        flex-direction: column;
+    }
+    
+    .option > li{
+        position: relative;
+        background-color: #231f1f;
+        opacity: none;
+        height: 80px;
+        padding-top: 20px;
+    }
+    
+    .navbar > .option{
+        visibility: hidden;
+    }
+    
+    .hamburger:hover + .option{
+        visibility: visible;
+    }
+    
+    .option:hover{
+        visibility: visible;
+    }
+    
+    
 }
