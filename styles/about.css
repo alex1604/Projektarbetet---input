@@ -1,5 +1,6 @@
 main {
   text-align: center;
+<<<<<<< HEAD
   margin: auto;
   margin-top: 15%;
   width: 90%;
@@ -39,6 +40,13 @@ p {
 }
 
 
+=======
+  margin-left: 8%;
+  margin-top: 15%;
+  width: 90%;
+}
+
+>>>>>>> andreas
 main > p {
   text-align: left;
 }
@@ -66,8 +74,13 @@ main > p {
   border-color: transparent;
   border-width: 1px;
 }
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD:styles/about.css
+=======
+>>>>>>> andreas
 
 @media (max-width: 574px){
     
@@ -92,4 +105,8 @@ main > p {
 }
     
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> Joakim:about.css
+>>>>>>> andreas
