@@ -1,3 +1,6 @@
+
+
+
 @media (min-width: 575px){
 
 .container {
@@ -22,7 +25,7 @@
     transition: all 1s;
 }
 
-.product:hover > img{
+.product:hover > img{ 
     transform: scale(1.1);
     transition: 1s;
 }
