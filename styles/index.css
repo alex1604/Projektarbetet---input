@@ -22,10 +22,13 @@ main .container{
   width: 100%;
   max-height:40em;
 }
+<<<<<<< HEAD
+=======
 
 .carousel-indicators{
 
 }
+>>>>>>> andreas
 .carousel-indicators li {
   background-color: white !important;
   border: 1px solid black !important;

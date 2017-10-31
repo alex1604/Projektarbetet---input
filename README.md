@@ -11,6 +11,16 @@ Att göra:
    - "textfält" med citat
    
 - "om oss"-sida / "om företaget"-sida
+<<<<<<< HEAD
+  - Skriva texterna & lägg in bilderna på oss
+  
+- Webbshop (inkl undersida, med presentation av produkt)
+  - lite styling
+  
+- Kontakt (formulär)
+  - uppdatera css med fonts 
+  
+=======
   - Företagets information + visioner
   - Information om "personerna"
   
@@ -19,10 +29,22 @@ Att göra:
   
 - Kontakt (formulär)
   - blabla
+>>>>>>> andreas
 - Grund-css fil
   - blabla
 
 - Meny
+<<<<<<< HEAD
+  - hamburgarmenyn
+  - styling
+  
+  
+- Footer 
+  - styling
+
+Övrigt att göra:
+- Logotyp
+=======
   - "hem" (kan vara logga)
   - Produkt
     - Men
@@ -40,3 +62,4 @@ Att göra:
 - Företagsnamn
 - Fota produkter
 
+>>>>>>> andreas
