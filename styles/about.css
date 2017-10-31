@@ -1,0 +1,61 @@
+main {
+  text-align: center;
+  margin-left: 8%;
+  margin-top: 15%;
+  width: 90%;
+}
+
+main > p {
+  text-align: left;
+}
+
+.person {
+  height: auto;
+  display: flex;
+  margin-left: 2%;
+}
+
+.person, p, h3 {
+  flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.worker {
+  width: 40%;
+  margin: auto;
+  height: auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+}
+<<<<<<< HEAD:styles/about.css
+=======
+
+@media (max-width: 574px){
+    
+main {
+    text-align: center;
+    margin-top: 15%;
+    width: 84%;
+    margin-left: 8%;
+}
+
+main > p {
+  text-align: left;
+}
+
+.row {
+  flex-direction: column;
+}
+
+.person {
+    margin: 15px;
+    width: 100%;
+}
+    
+}
+>>>>>>> Joakim:about.css
