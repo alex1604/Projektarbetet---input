@@ -11,32 +11,24 @@ Att göra:
    - "textfält" med citat
    
 - "om oss"-sida / "om företaget"-sida
-  - Företagets information + visioner
-  - Information om "personerna"
+  - Skriva texterna & lägg in bilderna på oss
   
 - Webbshop (inkl undersida, med presentation av produkt)
-  - blabla 
+  - lite styling
   
 - Kontakt (formulär)
-  - blabla
+  - uppdatera css med fonts 
+  
 - Grund-css fil
   - blabla
 
 - Meny
-  - "hem" (kan vara logga)
-  - Produkt
-    - Men
-    - Woman
-  - About
-  - Concact
+  - hamburgarmenyn
+  - styling
   
   
 - Footer 
-  - adress, telefonnummer, email
-  - Sociala medier
+  - styling
 
 Övrigt att göra:
 - Logotyp
-- Företagsnamn
-- Fota produkter
-
