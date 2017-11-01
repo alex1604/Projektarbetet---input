@@ -13,10 +13,17 @@ main .container{
   border-radius: 0px!important;
   padding:2em 3em!important;
 }
-p, h4{
+p{
   font-size:1.3em!important;
   align-items:flex-end;
   text-align: justify;
+}
+h3{
+  align-items:flex-end;
+  text-align: justify;
+}
+#description h3{
+  text-align:right;
 }
 button{
   padding:0.7em;
@@ -38,9 +45,6 @@ button{
   padding-right:10%;
   padding-left:40%;
 }
-#description h4{
-  text-align:right;
-}
 #picture{
   display:flex;
   flex-direction: row;
@@ -53,7 +57,13 @@ button{
   margin:none !important;
   width:100%;
   height:auto;
+  transition: all 1s;
 }
+#picture:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 a:hover > button{
   background-color: #FA5858 !important;
   color:white;
@@ -68,10 +78,13 @@ a:visited > button{
   color:white;
 }
 .badge{
-  border:1px solid #FA5858;
-  background-color: white !important;
-  font-size:1em !important;
-  color:black !important;
+  font-size:0.5em !important;
+  border:1px solid black;
+  background-color: gray !important;
+  font-size:0.8em !important;
+  color: !important;
+  padding-top: 1% !important;
+  margin-bottom:0.3em;
 }
 
 /*#################################################
@@ -79,10 +92,17 @@ a:visited > button{
 #################################################*/
 
 @media (max-width:505px) and (min-width:0px){
-  p, h4{
+  p{
     font-size:1.3em!important;
     align-items:flex-end;
     text-align: justify;
+  }
+  h3{
+    align-items:flex-end;
+    text-align: justify;
+  }
+  #description h3{
+    text-align:right;
   }
   button{
     display:none;
@@ -104,9 +124,6 @@ a:visited > button{
     padding-right:10%;
     padding-left:0;
   }
-  #description h4{
-    text-align:right;
-  }
   #picture{
     display:flex;
     flex-direction: row;
@@ -120,12 +137,20 @@ a:visited > button{
     width:100%;
     height:auto;
   }
+
 }
 @media (max-width:575px) and (min-width:506px){
-  p, h4{
+  p{
     font-size:1.3em!important;
     align-items:flex-end;
     text-align: justify;
+  }
+  h3{
+    align-items:flex-end;
+    text-align: justify;
+  }
+  #description h3{
+    text-align:right;
   }
   #description #cart{
     display:none;
@@ -148,9 +173,6 @@ a:visited > button{
     padding-right:10%;
     padding-left:10%;
   }
-  #description h4{
-    text-align:right;
-  }
   #picture{
     display:flex;
     flex-direction: row;
@@ -166,13 +188,20 @@ a:visited > button{
   }
 }
 @media (max-width: 767px) and (min-width: 576px){
-  p, h4{
+  p{
     font-size:1.3em!important;
+    align-items:flex-end;
+    text-align: justify;
+  }
+  h3{
     align-items:flex-end;
     text-align: justify;
   }
   #description #cart{
     display:none;
+  }
+  #description h3{
+    text-align:right;
   }
   button{
     padding:0.7em;
@@ -190,9 +219,6 @@ a:visited > button{
     padding-top:3em;
     padding-right:10%;
     padding-left:20%;
-  }
-  #description h4{
-    text-align:right;
   }
   #picture{
     display:flex;
@@ -227,12 +253,12 @@ footer .container{
 }
 #contact_info{
   justify-content: flex-start;
-  font-size:1.3em;
+  font-size:1em;
   flex:1 1 70%;
 }
 #social_media{
   justify-content:flex-end;
-  font-size:1.3em;
+  font-size:1em;
   flex: 1 1 30%;
 }
 footer a{
@@ -289,19 +315,19 @@ footer a:active{
   #contact_info{
     justify-content: center;
     flex: 1 0 100%;
-    font-size:1em;
+    font-size:0.8em;
   }
   #social_media{
     justify-content:flex-end;
     flex: 1 0 100%;
-    font-size:1em;
+    font-size:0.8em;
   }
   #brand_name{
     display:flex;
     flex-direction:row;
     justify-content: center;
     flex:1 0 100%;
-    font-size:0.8em;
+    font-size:0.7em;
   }
 }
 @media (max-width:575px) and (min-width:506px){
@@ -356,18 +382,18 @@ footer a:active{
   #contact_info{
     justify-content: flex-start;
     flex: 1 0 50%;
-    font-size:0.9em;
+    font-size:0.8em;
   }
   #social_media{
     justify-content: flex-end;
     flex: 1 0 20%;
-    font-size:0.9em;
+    font-size:0.8em;
   }
   #brand_name{
     display:flex;
     flex-direction:row;
     justify-content: center;
     flex:1 0 100%;
-    font-size:0.8em;
+    font-size:0.7em;
   }
 }
