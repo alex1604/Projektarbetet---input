@@ -1,0 +1,121 @@
+.container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  width:90%;
+  height:20em;
+  background-color: gray;
+  color: white;
+  font-family: Helvetica Neue;
+  padding: 0 auto;
+  margin:auto;
+}
+#contact_info{
+  justify-content: flex-start;
+  font-size:1.3em;
+}
+#social_media{
+  justify-content:flex-end;
+  font-size:1.3em;
+}
+a{
+  display:block;
+  align-items: center;
+}
+#brand_name{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  flex:1 1 100%;
+  font-size:0.8em;
+}
+img{
+  vertical-align:middle;
+  height:1.5em;
+  background-color:white;
+  border-radius:100px;
+}
+
+a:link{
+  text-decoration:none;
+  color:white;
+}
+a:visited{
+  text-decoration:none;
+  color:white;
+}
+a:hover{
+  text-decoration:none;
+  color:white;
+}
+a:active{
+  text-decoration:none;
+  color:white;
+}
+@media (max-width:575px){
+  .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:80%;
+    height:100%;
+    background-color: gray;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size:1em;
+    padding:2em;
+    margin:auto;
+  }
+  #contact_info{
+    justify-content: flex-start;
+    flex: 1 0 50%;
+    font-size:1em;
+  }
+  #social_media{
+    justify-content:flex-start;
+    flex: 1 0 50%;
+    font-size:1em;
+  }
+  #brand_name{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex:1 0 100%;
+    font-size:0.8em;
+  }
+}
+@media (max-width: 767px) and (min-width: 576px){
+  .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:80%;
+    height:100%;
+    background-color: gray;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size:1em;
+    padding:2em;
+    margin:auto;
+  }
+  #contact_info{
+    justify-content: flex-start;
+    flex: 1 0 50%;
+    font-size:0.9em;
+  }
+  #social_media{
+    justify-content: flex-end;
+    flex: 1 0 20%;
+    font-size:0.9em;
+  }
+  #brand_name{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex:1 0 100%;
+    font-size:0.8em;
+  }
+}
