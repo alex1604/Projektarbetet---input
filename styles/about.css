@@ -66,13 +66,10 @@ main > p {
 }
 
 .worker {
-  width: 60%;
+  width: 50%;
   margin: auto;
-  height: 60%;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: transparent;
-  border-width: 1px;
+  height: auto;
+
 }
 
 .workertext {
