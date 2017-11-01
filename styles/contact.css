@@ -1,6 +1,9 @@
 main {
   margin: auto;
   width: 100%;
+  font-family: 'Josefin Sans'; 
+  letter-spacing: 0.3em;
+  font-weight: 300;
 }
 
 .form {
@@ -9,6 +12,10 @@ main {
   text-align: center;
   margin-top: 15%;
   margin-bottom: 15%
+}
+
+.form > p {
+    margin-bottom: 15%;
 }
 
 input {
