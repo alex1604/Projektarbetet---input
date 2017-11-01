@@ -1,15 +1,15 @@
 main {
   text-align: center;
-<<<<<<< HEAD
   margin: auto;
   margin-top: 15%;
   width: 90%;
   font-family: 'Josefin Sans', sans-serif;
-  font-weight: normal;
+  font-weight: 300;
+  font-size: 1.2em;
 }
 
 h1 {
-  font-weight: lighter;
+  font-weight: 400;
   font-size: 2.5em;
   border-bottom: solid;
   border-color: black;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-weight: lighter;
+  font-weight: 300;
   font-size: 1.5em;
   border-bottom: solid;
   border-color: black;
@@ -31,8 +31,14 @@ h2 {
 }
 
 h3 {
-  font-weight: 100;
+  font-weight: 300;
+}
+
+h4 {
+  font-weight: 300;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  text-decoration: underline;
 }
 
 p {
@@ -40,13 +46,6 @@ p {
 }
 
 
-=======
-  margin-left: 8%;
-  margin-top: 15%;
-  width: 90%;
-}
-
->>>>>>> andreas
 main > p {
   text-align: left;
 }
@@ -55,6 +54,7 @@ main > p {
   height: auto;
   display: flex;
   margin-left: 2%;
+  margin-bottom: 15%;
 }
 
 .person, p, h3 {
@@ -66,21 +66,35 @@ main > p {
 }
 
 .worker {
-  width: 40%;
+  width: 60%;
   margin: auto;
-  height: auto;
+  height: 60%;
   border-radius: 50%;
   border-style: solid;
   border-color: transparent;
   border-width: 1px;
 }
-<<<<<<< HEAD
 
+.workertext {
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    font-weight: 300;
+}
 
-=======
-<<<<<<< HEAD:styles/about.css
-=======
->>>>>>> andreas
+.container-about {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.about-company {
+    margin-bottom: 10%;
+}
+
+.company-vision {
+    margin-bottom: 10%;
+}
 
 @media (max-width: 574px){
     
@@ -103,10 +117,8 @@ main > p {
     margin: 15px;
     width: 100%;
 }
-    
+.worker {
+  width: 250px;
+  height: 250px
+}  
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> Joakim:about.css
->>>>>>> andreas
