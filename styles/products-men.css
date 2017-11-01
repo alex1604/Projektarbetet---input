@@ -1,15 +1,16 @@
 
-
-
 @media (min-width: 575px){
 
 .container {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    letter-spacing: .2em;
     text-align: center;
     margin-top: 15%;
     width: 90%;
     margin-left: 8%;
-}
-
+    }
+    
 .row {
     display: flex;
 }
@@ -17,9 +18,19 @@
 .product {
     margin: 15px;
     flex: 1 1 auto;
-    border-bottom: 1px solid grey
+   }
+
+    padding: 0px;
+    flex: 1 1 auto;
 }
 
+.product > p {
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+ 
+
+    
 .product > img {
     width: 100%;
     transition: all 1s;
@@ -29,7 +40,14 @@
     transform: scale(1.1);
     transition: 1s;
 }
-}
+.product:hover > p {
+        background-color: grey;
+        transition: background-color 2s;
+        color: white;
+    }
+    
+    
+    
 
 @media (max-width: 574px){
     
@@ -45,7 +63,6 @@
     display: block;
     margin: 15px;
     flex: 1 1 auto;
-    border-bottom: 1px solid grey
 }
 
 .product > img {

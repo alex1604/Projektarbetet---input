@@ -9,7 +9,7 @@ main .container{
 .jumbotron{
   justify-content:center;
   width:100%;
-  background-color:teal !important;
+  background-color:#F3F781 !important;
   margin:0 !important;
   border-radius: 0px!important;
 }
@@ -22,10 +22,22 @@ main .container{
   width: 100%;
   max-height:40em;
 }
-
-.carousel-indicators{
-
+.carousel-inner .item:hover > img {
+  transform: scale(1.05);
+  transition: 1s;
 }
+.carousel-inner .item img{
+  transition: all 1s;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+  color: black !important;
+  background-color: none !important;
+}
+.carousel-control{
+  background-image:none !important;
+}
+
 .carousel-indicators li {
   background-color: white !important;
   border: 1px solid black !important;
