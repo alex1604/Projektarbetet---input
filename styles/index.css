@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  font-family: "josefin sans", sans-serif;
+}
 main .container{
   display:flex;
   flex-direction: row;
@@ -51,9 +55,6 @@ li .active{
 /*#################################################
                     FOOTER CSS
 #################################################*/
-body {
-  margin: 0;
-}
 footer .container{
   display:flex;
   flex-direction: row;
@@ -165,7 +166,7 @@ footer a:active{
     justify-content: center;
     flex: 1 0 100%;
     font-size: 0.7em;
-    margin: 0 1em;
+    margin: 2 1em;
   }
 }
 @media (max-width:575px) and (min-width:506px){
@@ -259,13 +260,13 @@ footer a:active{
 nav *{
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'josefin sans', sans-serif;
 }
 
 .logo{
-    width: 70px;
-    height: 60px;
-    padding: 10px;
+    width:88px;
+    height: 78px;
+    padding: 9px;
 }
 
 .hamburger{
@@ -275,9 +276,9 @@ nav *{
 }
 
 nav .container{
-
     width: 100%;
     background-color: #231f1f;
+    padding:0;
 }
 
  nav a{
@@ -288,7 +289,11 @@ nav .container{
 .navbar{
     position: relative;
     display: flex;
-    font-size: 2em;
+    font-size: 2.28em;
+    margin-bottom:0!important;
+}
+nav ul{
+  margin-bottom:0;
 }
 
 .navbar input{
@@ -305,8 +310,8 @@ nav .container{
     flex: 1 1 auto;
     flex-direction: row;
     text-align: center;
-    padding: auto;
-    margin: auto;
+    padding:auto!important;
+    margin:auto!important;
 }
 
 .option span:hover{
@@ -327,11 +332,10 @@ nav .container{
         position: absolute;
         top: 0;
         left: 0;
-        width: 70px;
-        height: 60px;
-        padding: 10px;
+        width:88px;
+        height: 78px;
+        padding: 9px;
     }
-
     nav .container{
         position: relative;
         height: 80px;
@@ -379,8 +383,8 @@ nav .container{
         width: 60px;
         height: 60px;
         opacity: 0;
-
         z-index: 1;
+        overflow:inherit;
     }
 
     .option li:hover{
