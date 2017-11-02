@@ -211,7 +211,7 @@ footer a:active{
     justify-content: center;
     flex: 1 0 100%;
     font-size: 0.7em;
-    margin: 0 1em;
+    margin: 2em 1em;
   }
 }
 @media (max-width:575px) and (min-width:506px){
