@@ -11,7 +11,7 @@ main .container{
   background-color:white !important;
   margin:0 !important;
   border-radius: 0px!important;
-  padding:2em 3em!important;
+  padding:10em 3em!important;
 }
 main p{
   font-size:1.3em!important;
@@ -62,7 +62,7 @@ button{
 #picture img{
   margin:auto;
   padding:auto;
-  width:70%;
+  width:50%;
   height:auto;
   transition: all 1s;
 }
@@ -462,4 +462,151 @@ footer a:active{
     flex:1 0 100%;
     font-size:0.7em;
   }
+}
+
+/*#####################################
+          NAVBAR STYLES
+######################################*/
+
+
+nav *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.logo{
+    width: 70px;
+    height: 60px;
+    padding: 10px;
+}
+
+.hamburger{
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+
+nav .container{
+    position: fixed;
+    width: 100%;
+    background-color: #231f1f;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    font-size: 2em;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar input{
+    display: none;
+}
+
+.option{
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+
+.option > li{
+    flex: 1 1 auto;
+    flex-direction: row;
+}
+
+.option span:hover{
+    color: grey;
+}
+
+.content{
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 575px){
+
+    .logo{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70px;
+        height: 60px;
+        padding: 10px;
+    }
+
+    nav .container{
+        position: relative;
+        height: 80px;
+    }
+
+    .hamburgermenu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 10px;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .hamburgermenu span{
+        position: relative;
+        background-color: white;
+        width: 90%;
+        height: 23%;
+        left: 5%;
+        right: 5%;
+
+        top: 5%;
+        bottom: 5%;
+
+        margin-bottom: 10%;
+        border-radius: 10px;
+
+        z-index: 1;
+        pointer-events: none;
+    }
+
+    .option{
+        position: absolute;
+        top: 0px;
+        flex-direction: column;
+    }
+
+    .option input{
+        position: absolute;
+        display: block;
+        top: 10px;
+        right: 10px;
+        width: 60px;
+        height: 60px;
+        opacity: 0;
+
+        z-index: 1;
+    }
+
+    .option li:hover{
+        color: grey;
+    }
+
+    .option > li{
+        position: relative;
+        width: 100%;
+        top: 80px;
+        background-color: #231f1f;
+        height: 80px;
+        padding-top: 20px;
+        display: none;
+    }
+
+    .option input:checked ~ li{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
 }
