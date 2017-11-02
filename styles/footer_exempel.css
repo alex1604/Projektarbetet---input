@@ -1,26 +1,37 @@
-.container{
+/*#################################################
+                    FOOTER CSS
+#################################################*/
+
+footer .container{
   display:flex;
   flex-direction: row;
   flex-wrap:wrap;
   justify-content:space-around;
-  width:90%;
+  width:100%;
   height:20em;
   background-color: gray;
   color: white;
-  font-family: Helvetica Neue;
-  padding: 0 auto;
-  margin:auto;
+  font-family:"josefin sans", sans-serif !important;
+  padding:0!important;
+  margin:0!important;
+  width:100% !important;
 }
 #contact_info{
   justify-content: flex-start;
-  font-size:1.3em;
+  font-size:1em;
+  flex:1 1 60%;
+
 }
 #social_media{
-  justify-content:flex-end;
-  font-size:1.3em;
+  font-size:1.5em;
+  flex: 1 1 40%;
 }
-a{
-  display:block;
+#social_media .wrapper{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+footer a{
   align-items: center;
 }
 #brand_name{
@@ -29,54 +40,92 @@ a{
   justify-content: center;
   flex:1 1 100%;
   font-size:0.8em;
+  margin-top:4em;
 }
-img{
+
+footer img{
   vertical-align:middle;
   height:1.5em;
   background-color:white;
   border-radius:100px;
 }
 
-a:link{
+footer a:link{
   text-decoration:none;
   color:white;
 }
-a:visited{
+footer a:visited{
   text-decoration:none;
   color:white;
 }
-a:hover{
+footer a:hover img {
+  text-decoration:none;
+  color:white;
+  transform: scale(1.3) rotate(360deg);
+  transition: 1s;
+}
+footer a:active{
   text-decoration:none;
   color:white;
 }
-a:active{
-  text-decoration:none;
-  color:white;
-}
-@media (max-width:575px){
-  .container{
+@media (max-width:505px){
+  footer .container{
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content:space-around;
-    width:80%;
-    height:100%;
+    width:100%;
+    height:auto;
     background-color: gray;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: "josefin sans", sans-serif;
     font-size:1em;
-    padding:2em;
+    padding:1em;
     margin:auto;
   }
   #contact_info{
-    justify-content: flex-start;
+    justify-content: center;
+    flex: 1 0 100%;
+    font-size:0.8em;
+  }
+  #social_media{
+    justify-content:flex-end;
+    flex: 1 0 100%;
+    font-size:1.6em;
+  }
+  #brand_name{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex:1 0 100%;
+    font-size:0.7em;
+  }
+}
+@media (max-width:575px) and (min-width:506px){
+  footer .container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:100%;
+    height:auto;
+    background-color: gray;
+    color: white;
+    font-family: "josefin sans", sans-serif;
+    font-size:1em;
+    padding:1em;
+    margin:auto;
+
+  }
+  #contact_info{
+    justify-content: center;
     flex: 1 0 50%;
     font-size:1em;
   }
   #social_media{
-    justify-content:flex-start;
+    justify-content:flex-end;
     flex: 1 0 50%;
-    font-size:1em;
+    font-size:1.6em;
   }
   #brand_name{
     display:flex;
@@ -87,16 +136,16 @@ a:active{
   }
 }
 @media (max-width: 767px) and (min-width: 576px){
-  .container{
+  footer .container{
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content:space-around;
-    width:80%;
+    width:100%;
     height:100%;
     background-color: gray;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: "josefin sans", sans-serif;
     font-size:1em;
     padding:2em;
     margin:auto;
@@ -104,18 +153,18 @@ a:active{
   #contact_info{
     justify-content: flex-start;
     flex: 1 0 50%;
-    font-size:0.9em;
+    font-size:0.8em;
   }
   #social_media{
     justify-content: flex-end;
     flex: 1 0 20%;
-    font-size:0.9em;
+    font-size:1.6em;
   }
   #brand_name{
     display:flex;
     flex-direction:row;
     justify-content: center;
     flex:1 0 100%;
-    font-size:0.8em;
+    font-size:0.7em;
   }
 }
