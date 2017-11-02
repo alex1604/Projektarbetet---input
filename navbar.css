@@ -27,13 +27,15 @@ body{
     background-color: #231f1f;
 }
 
+ a{
+    text-decoration: none;
+    color: white;
+}
+
 .navbar{
     position: relative;
     display: flex;
     font-size: 2em;
-    color: white;
-    align-items: center;
-    text-align: center;
 }
 
 .navbar input{
@@ -46,9 +48,12 @@ body{
     list-style: none;
 }
 
-.option > li{
+.option li{
     flex: 1 1 auto;
     flex-direction: row;
+    text-align: center;
+    padding: auto;
+    margin: auto;
 }
 
 .option span:hover{
@@ -132,10 +137,11 @@ body{
         position: relative;
         width: 100%;
         top: 80px;
+        height: 40px;
+        padding: 5px;
         background-color: #231f1f;
-        height: 80px;
-        padding-top: 20px;
         display: none;
+        border-top: solid white;
     }
     
     .option input:checked ~ li{
