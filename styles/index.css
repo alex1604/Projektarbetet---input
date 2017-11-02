@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "josefin sans", sans-serif;
+  height:100%;
 }
 main .container{
   display:flex;
