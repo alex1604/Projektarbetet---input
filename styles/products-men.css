@@ -3,7 +3,7 @@
 
     a {
         text-decoration: none;
-        color: black;
+        color: black; 
     }
 
 .containerforproducts {
@@ -11,7 +11,6 @@
     font-weight: 300;
     letter-spacing: .2em;
     text-align: center;
-    margin-top: 15%;
     width: 90%;
     margin-left: 5%;
     }
@@ -33,22 +32,10 @@
 
 .product  p {
     border-bottom: 1px solid grey;
-<<<<<<< HEAD
-<<<<<<< HEAD
     padding: .7em;
     margin: 1em;
-=======
     padding: 10px;
     margin-top: 2em;
->>>>>>> master
-=======
-    padding: 10px;
-    margin-top: 2em;
-=======
-    padding: .7em;
-    margin: 1em;
->>>>>>> 70f300e14cea5262435b7617375a4c4d86427283
->>>>>>> master
 }
 
 
@@ -74,6 +61,11 @@
 
 @media (max-width: 574px){
 
+       a {
+        text-decoration: none;
+        color: black; 
+    }
+    
 .containerforproducts {
     text-align: center;
     margin-top: 15%;
