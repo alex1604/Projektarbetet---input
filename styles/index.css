@@ -109,6 +109,9 @@ footer img{
   background-color:white;
   border-radius:100px;
 }
+footer a img{
+  transition: all 2s;
+}
 
 footer a:link{
   text-decoration:none;
@@ -312,7 +315,7 @@ nav ul{
     flex-direction: row;
     text-align: center;
     padding:auto!important;
-    margin:auto!important;
+    margin: auto;
 }
 
 .option span:hover{
