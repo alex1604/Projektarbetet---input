@@ -274,8 +274,6 @@ footer a:active{
 /*#######################################
             NAVBAR CSS
 #######################################*/
-
-
 nav *{
     margin: 0;
     padding: 0;
@@ -283,9 +281,9 @@ nav *{
 }
 
 .logo{
-    width: 70px;
-    height: 60px;
-    padding: 10px;
+    margin-left: 3%;
+    width: 4em;
+    height: 2em;
 }
 
 .hamburger{
@@ -295,9 +293,9 @@ nav *{
 }
 
 nav .container{
-
     width: 100%;
     background-color: #231f1f;
+    padding:0;
 }
 
  nav a{
@@ -308,11 +306,17 @@ nav .container{
 .navbar{
     position: relative;
     display: flex;
-    font-size: 2em;
+    font-size: 2.28em;
+    font-weight:300;
+    margin-bottom:0!important;
+}
+nav ul{
+  margin-bottom:0;
 }
 
 .navbar input{
     display: none;
+    overflow:inherit;
 }
 
 .option{
@@ -325,13 +329,17 @@ nav .container{
     flex: 1 1 auto;
     flex-direction: row;
     text-align: center;
-    padding: auto;
-    margin: auto;
+    padding:auto!important;
+    margin:auto!important;
 }
 
 .option span:hover{
     color: grey;
     cursor:pointer;
+    transition: color .7s;
+}
+.option a:hover {
+  text-decoration: none;
 }
 
 .content{
@@ -343,14 +351,14 @@ nav .container{
 
 @media (max-width: 575px){
 
-    .logo{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 70px;
-        height: 60px;
-        padding: 10px;
-    }
+  .logo{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width:88px;
+      height: 78px;
+      padding: 9px;
+  }
 
     nav .container{
         position: relative;

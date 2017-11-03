@@ -21,7 +21,7 @@ main .container{
 #carousel{
   width:100%;
   padding:auto;
-  margin:auto; 
+  margin:auto;
 }
 .carousel-inner > .item > img {
   margin:auto;
@@ -268,7 +268,7 @@ nav *{
 }
 
 .logo{
-    margin-left: 5%;
+    margin-left: 3%;
     width: 4em;
     height: 2em;
 }
@@ -316,7 +316,7 @@ nav ul{
     flex-direction: row;
     text-align: center;
     padding:auto!important;
-    margin: auto;
+    margin: auto !important;
 }
 
 .option span:hover{
