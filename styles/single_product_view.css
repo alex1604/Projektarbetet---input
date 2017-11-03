@@ -475,9 +475,9 @@ nav *{
 }
 
 .logo{
-    width:88px;
-    height: 78px;
-    padding: 9px;
+    margin-left: 3%;
+    width: 4em;
+    height: 2em;
 }
 
 .hamburger{
@@ -501,6 +501,7 @@ nav .container{
     position: relative;
     display: flex;
     font-size: 2.28em;
+    font-weight:300;
     margin-bottom:0!important;
 }
 nav ul{
@@ -509,6 +510,7 @@ nav ul{
 
 .navbar input{
     display: none;
+    overflow:inherit;
 }
 
 .option{
@@ -528,6 +530,10 @@ nav ul{
 .option span:hover{
     color: grey;
     cursor:pointer;
+    transition: color .7s;
+}
+.option a:hover {
+  text-decoration: none;
 }
 
 .content{
