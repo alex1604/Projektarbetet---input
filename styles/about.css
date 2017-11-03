@@ -1,7 +1,8 @@
+
 main {
   text-align: center;
   margin: auto;
-  margin-top: 15%;
+  margin-top: 5%;
   width: 90%;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
@@ -53,8 +54,7 @@ main > p {
 .person {
   height: auto;
   display: flex;
-  margin-left: 2%;
-  margin-bottom: 15%;
+  margin-bottom: 5%;
 }
 
 .person, p, h3 {
