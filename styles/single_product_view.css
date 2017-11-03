@@ -282,6 +282,9 @@ footer .container{
   margin:0!important;
   width:100% !important;
 }
+footer a img{
+  transition: all 2s;
+}
 #contact_info{
   font-size:1.3em;
   flex:1 1 60%;
@@ -468,6 +471,8 @@ footer a:active{
 /*#######################################
             NAVBAR CSS
 #######################################*/
+
+
 nav *{
     margin: 0;
     padding: 0;
@@ -501,7 +506,7 @@ nav .container{
     position: relative;
     display: flex;
     font-size: 2.28em;
-    font-weight:300;
+    font-weight: 300;
     margin-bottom:0!important;
 }
 nav ul{
@@ -510,7 +515,6 @@ nav ul{
 
 .navbar input{
     display: none;
-    overflow:inherit;
 }
 
 .option{
@@ -524,17 +528,20 @@ nav ul{
     flex-direction: row;
     text-align: center;
     padding:auto!important;
-    margin:auto!important;
+    margin: auto !important;
 }
 
 .option span:hover{
     color: grey;
-    cursor:pointer;
     transition: color .7s;
+    cursor:pointer;
 }
+
 .option a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
+
+
 
 .content{
     position: absolute;
@@ -543,17 +550,13 @@ nav ul{
     height: 100%;
 }
 
-@media (max-width: 575px){
+@media (max-width: 750px){
 
-  .logo{
-      position: absolute;
-      top: 0;
-      left: 0;
-      width:88px;
-      height: 78px;
-      padding: 9px;
-  }
-
+    .logo{
+      margin-left: 3%;
+      width: 4em;
+      height: 2em;
+    }
     nav .container{
         position: relative;
         height: 80px;
@@ -601,8 +604,8 @@ nav ul{
         width: 60px;
         height: 60px;
         opacity: 0;
-
         z-index: 1;
+        overflow:inherit;
     }
 
     .option li:hover{
@@ -618,6 +621,7 @@ nav ul{
         background-color: #231f1f;
         display: none;
         border-top: solid white;
+        z-index:2
     }
 
     .option input:checked ~ li{
