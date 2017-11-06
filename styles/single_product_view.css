@@ -495,7 +495,6 @@ nav *{
     background-color: grey;
     transition: background-color 1s;
 }
-
 .hamburger{
     width: 0;
     height: 0;
@@ -527,7 +526,6 @@ nav ul{
 .navbar input{
     display: none;
 }
-
 .option{
     display: flex;
     width: 100%;
