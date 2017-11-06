@@ -258,8 +258,11 @@ a:visited > button{
 /*#################################################
                     FOOTER CSS
 #################################################*/
-body {
-  margin: 0;
+body{
+  margin:0;
+}
+footer a img{
+  transition: all 2s;
 }
 footer .container{
   display:flex;
@@ -272,11 +275,6 @@ footer .container{
   color: white;
   font-family:"josefin sans", sans-serif !important;
   padding: 2em;
-  margin:0!important;
-  width:100% !important;
-}
-footer a img{
-  transition: all 2s;
 }
 #contact_info{
   font-size:1.3em;
@@ -287,8 +285,10 @@ footer a img{
   margin-right: 1em;
 }
 #social_media{
-  font-size:1em;
   flex: 1 1 40%;
+}
+#social_media h3{
+  font-size:1.5em;
 }
 #social_media p{
   font-size:2.5em;
@@ -310,12 +310,17 @@ footer a{
   margin-top:3em;
   margin-right: 4em;
 }
+
 footer img{
   vertical-align:middle;
   height:1.5em;
   background-color:white;
   border-radius:100px;
 }
+footer a img{
+  transition: all 2s;
+}
+
 footer a:link{
   text-decoration:none;
   color:white;
@@ -340,11 +345,10 @@ footer a:active{
     flex-direction: row;
     flex-wrap:wrap;
     justify-content:space-around;
-    width:100%;
     height:auto;
     background-color: #231f1f;
     color: white;
-    font-family: "josefin sans", sans-serif;
+    font-family: "josefin sans", sans-serif !important;
     font-size:1em;
     padding:1em;
     margin:auto;
@@ -358,6 +362,9 @@ footer a:active{
     justify-content:flex-end;
     flex: 1 0 100%;
     font-size: 0.8em;
+  }
+  #social_media h3{
+    font-size:1.2em !important;
   }
   #social_media p{
     font-size: 3em !important;
@@ -373,7 +380,7 @@ footer a:active{
     justify-content: center;
     flex: 1 0 100%;
     font-size: 0.7em;
-    margin: 2em 1em;
+    margin: 2 1em;
   }
 }
 @media (max-width:575px) and (min-width:506px){
@@ -382,14 +389,14 @@ footer a:active{
     flex-direction: row;
     flex-wrap:wrap;
     justify-content:space-around;
-    width:100%;
     height:auto;
     background-color: #231f1f;
     color: white;
-    font-family: "josefin sans", sans-serif;
+    font-family: "josefin sans", sans-serif !important;
     font-size:1em;
     padding:1em;
     margin:auto;
+
   }
   #contact_info{
     justify-content: center;
@@ -404,6 +411,9 @@ footer a:active{
   #social_media p{
     font-size:1.8em !important;
     margin-right: 1em;
+  }
+  #social_media h3{
+    font-size:1em !important;
   }
   #contact_info p img{
     font-size:1.3em;
@@ -423,11 +433,10 @@ footer a:active{
     flex-direction: row;
     flex-wrap:wrap;
     justify-content:space-around;
-    width:100%;
     height:100%;
     background-color: #231f1f;
     color: white;
-    font-family: "josefin sans", sans-serif;
+    font-family: "josefin sans", sans-serif !important;
     font-size:1em;
     padding:2em;
     margin:auto;
@@ -445,6 +454,9 @@ footer a:active{
   #social_media p{
     font-size:1.5em !important;
     margin-right: 1em;
+  }
+  #social_media h3{
+    font-size:1em !important;
   }
   #contact_info p img{
     font-size:1.5em!important;
@@ -472,8 +484,8 @@ nav *{
 .logo{
     background-color: white;
     margin-top:3px;
-    padding: 0px;
-    height: 2.3em;
+    height: 2.4em;
+    padding:0px;
     width: auto;
     transition: background-color 1s;
 }
@@ -498,9 +510,9 @@ nav .container{
 .navbar{
     position: relative;
     display: flex;
-    font-size: 2.28em;
+    font-size: 1.8em;
     font-weight: 300;
-    margin-bottom:0!important;
+    margin:0!important;
 }
 nav ul{
   margin-bottom:0;
