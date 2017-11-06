@@ -71,7 +71,6 @@ button{
   transform: scale(1.1);
   transition: 1s;
 }
-
 a:hover > button{
   background-color: grey;
   transition: 2s;
@@ -79,13 +78,10 @@ a:hover > button{
   text-decoration: underline;
 }
 a:link > button{
-
 }
 a:active > button{
-
 }
 a:visited > button{
-
 }
 .badge{
   font-size:0.5em !important;
@@ -105,11 +101,9 @@ a:visited > button{
   color: white !important;
   text-decoration: underline;
 }
-
 /*#################################################
             PRODUC MEDIA QUERIES
 #################################################*/
-
 @media (max-width:505px) and (min-width:0px){
   p{
     font-size:1.3em!important;
@@ -156,7 +150,6 @@ a:visited > button{
     width:100%;
     height:auto;
   }
-
 }
 @media (max-width:575px) and (min-width:506px){
   p{
@@ -317,14 +310,12 @@ footer a{
   margin-top:3em;
   margin-right: 4em;
 }
-
 footer img{
   vertical-align:middle;
   height:1.5em;
   background-color:white;
   border-radius:100px;
 }
-
 footer a:link{
   text-decoration:none;
   color:white;
@@ -384,6 +375,7 @@ footer a:active{
     font-size: 0.7em;
     margin: 2em 1em;
   }
+}
 @media (max-width:575px) and (min-width:506px){
   footer .container{
     display:flex;
@@ -398,7 +390,6 @@ footer a:active{
     font-size:1em;
     padding:1em;
     margin:auto;
-
   }
   #contact_info{
     justify-content: center;
@@ -470,18 +461,14 @@ footer a:active{
 /*#######################################
             NAVBAR CSS
 #######################################*/
-
-
 nav *{
     margin: 0;
     padding: 0;
     font-family: 'josefin sans', sans-serif;
 }
-
 .navbar > a{
     margin-left: 3%;
 }
-
 .logo{
     background-color: white;
     margin-top:3px;
@@ -490,7 +477,6 @@ nav *{
     width: auto;
     transition: background-color 1s;
 }
-
 .logo:hover{
     background-color: grey;
     transition: background-color 1s;
@@ -500,29 +486,25 @@ nav *{
     height: 0;
     padding: 0;
 }
-
 nav .container{
     width: 100%;
     background-color: #231f1f;
     padding:0;
 }
-
  nav a{
     text-decoration: none;
     color: white;
 }
-
 .navbar{
     position: relative;
     display: flex;
-    font-size: 1.6em;
+    font-size: 2.28em;
     font-weight: 300;
     margin-bottom:0!important;
 }
 nav ul{
   margin-bottom:0;
 }
-
 .navbar input{
     display: none;
 }
@@ -531,7 +513,6 @@ nav ul{
     width: 100%;
     list-style: none;
 }
-
 .option li{
     flex: 1 1 auto;
     flex-direction: row;
@@ -539,28 +520,21 @@ nav ul{
     padding:auto!important;
     margin: auto !important;
 }
-
 .option span:hover{
     color: grey;
     transition: color .7s;
     cursor:pointer;
 }
-
 .option a:hover {
     text-decoration: none;
 }
-
-
-
 .content{
     position: absolute;
     background-color: red;
     width: 100%;
     height: 100%;
 }
-
 @media (max-width: 750px){
-
     .logo{
       margin-left: 3%;
       width: 4em;
@@ -570,7 +544,6 @@ nav ul{
         position: relative;
         height: 80px;
     }
-
     .hamburgermenu{
         position: absolute;
         display: flex;
@@ -580,7 +553,6 @@ nav ul{
         width: 60px;
         height: 60px;
     }
-
     .hamburgermenu span{
         position: relative;
         background-color: white;
@@ -588,23 +560,18 @@ nav ul{
         height: 23%;
         left: 5%;
         right: 5%;
-
         top: 5%;
         bottom: 5%;
-
         margin-bottom: 10%;
         border-radius: 10px;
-
         z-index: 1;
         pointer-events: none;
     }
-
     .option{
         position: absolute;
         top: 0px;
         flex-direction: column;
     }
-
     .option input{
         position: absolute;
         display: block;
@@ -616,22 +583,20 @@ nav ul{
         z-index: 1;
         overflow:inherit;
     }
-
     .option li:hover{
         color: grey;
     }
-
     .option > li{
         position: relative;
         width: 100%;
         top: 80px;
         height: 40px;
+        padding: 5px;
         background-color: #231f1f;
         display: none;
         border-top: solid white;
         z-index:2
     }
-
     .option input:checked ~ li{
         display: flex;
         text-align: center;
