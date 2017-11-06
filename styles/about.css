@@ -338,17 +338,28 @@ footer a:active{
             NAVBAR CSS
 #######################################*/
 
-
 nav *{
     margin: 0;
     padding: 0;
     font-family: 'josefin sans', sans-serif;
 }
 
-.logo{
+.navbar > a{
     margin-left: 3%;
-    width: 4em;
-    height: 2em;
+}
+
+.logo{
+    background-color: white;
+    margin-top:3px;
+    padding: 0px;
+    height: 2.3em;
+    width: auto;
+    transition: background-color 1s;
+}
+
+.logo:hover{
+    background-color: grey;
+    transition: background-color 1s;
 }
 
 .hamburger{
@@ -371,7 +382,7 @@ nav .container{
 .navbar{
     position: relative;
     display: flex;
-    font-size: 2.28em;
+    font-size: 1.6em;
     font-weight: 300;
     margin-bottom:0!important;
 }
@@ -406,8 +417,6 @@ nav ul{
 .option a:hover {
     text-decoration: none;
 }
-
-
 
 .content{
     position: absolute;
@@ -483,7 +492,6 @@ nav ul{
         width: 100%;
         top: 80px;
         height: 40px;
-        padding: 5px;
         background-color: #231f1f;
         display: none;
         border-top: solid white;
