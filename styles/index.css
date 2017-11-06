@@ -8,7 +8,7 @@ main .container{
   flex-direction: row;
   flex-wrap: wrap;
   padding:0 !important;
-  margin:0 !important;
+  margin:0 !important; 
   width:100% !important;
 }
 .jumbotron{
@@ -266,10 +266,22 @@ nav *{
     font-family: 'josefin sans', sans-serif;
 }
 
-.logo{
+.navbar > a{
     margin-left: 3%;
-    width: 4em;
-    height: 2em;
+}
+
+.logo{
+    background-color: white;
+    padding: 0px;
+    height: 2.4em;
+    width: auto;    
+    transition: background-color 1s;
+
+}
+
+.logo:hover{
+    background-color: grey;
+    transition: background-color 1s;
 }
 
 .hamburger{
@@ -404,7 +416,6 @@ nav ul{
         width: 100%;
         top: 80px;
         height: 40px;
-        padding: 5px;
         background-color: #231f1f;
         display: none;
         border-top: solid white;
