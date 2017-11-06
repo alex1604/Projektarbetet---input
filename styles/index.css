@@ -61,8 +61,7 @@ footer .container{
   flex-direction: row;
   flex-wrap:wrap;
   justify-content:space-around;
-
-  min-height:20em;
+  min-height:30em;
   background-color: #231f1f;
   color: white;
   font-family:"josefin sans", sans-serif !important;

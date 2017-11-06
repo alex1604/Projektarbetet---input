@@ -384,7 +384,6 @@ footer a:active{
     font-size: 0.7em;
     margin: 2em 1em;
   }
-}
 @media (max-width:575px) and (min-width:506px){
   footer .container{
     display:flex;
