@@ -15,7 +15,7 @@ main .container{
   padding:3em 3em!important;
 }
 main p{
-  font-size:2em!important;
+  font-size:2em;
   align-items:flex-end;
   text-align: justify;
 }
@@ -102,11 +102,11 @@ a:visited > button{
   text-decoration: underline;
 }
 /*#################################################
-            PRODUC MEDIA QUERIES
+            PRODUCT MEDIA QUERIES
 #################################################*/
 @media (max-width:505px) and (min-width:0px){
-  p{
-    font-size:1.3em!important;
+  main p{
+    font-size:1.5em!important;
     align-items:flex-end;
     text-align: justify;
   }
@@ -153,7 +153,7 @@ a:visited > button{
 }
 @media (max-width:575px) and (min-width:506px){
   p{
-    font-size:1.3em!important;
+    font-size:1.7em!important;
     align-items:flex-end;
     text-align: justify;
   }
@@ -205,7 +205,7 @@ a:visited > button{
 }
 @media (max-width: 767px) and (min-width: 576px){
   p{
-    font-size:1.3em!important;
+    font-size:1.8em!important;
     align-items:flex-end;
     text-align: justify;
   }
