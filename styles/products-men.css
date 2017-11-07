@@ -1,7 +1,7 @@
 
 @media (min-width: 575px){
 
-    a {
+    main a {
         text-decoration: none;
         color: black;
         outline: none;
@@ -63,7 +63,7 @@
 
 @media (max-width: 574px){
 
-       a {
+       main a {
         text-decoration: none;
         color: black;
         font-family: "Josefin sans", sans-serif;
@@ -110,7 +110,7 @@ footer .container{
   min-height:20em;
   background-color: #231f1f;
   color: white;
-  font-family:"josefin sans", sans-serif !important;
+  font-family:"Josefin Sans", sans-serif !important;
   padding: 2em;
   margin:0!important;
 }
